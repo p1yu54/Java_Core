@@ -51,5 +51,59 @@ public class basicDatatype{
         System.out.println(numFloat);
         System.out.println(numDouble);
 
+
+        /*
+         * 2. Non-Primitive Datatype
+         *          a. Class :A class in Java is a user defined data type i.e. it is created by the user. 
+         *                    It acts a template to the data which consists of member variables and methods.    
+         *          b. Object : An object is the variable of the class, which can access the elements of class i.e. methods and variables.
+         *          c. String : It is the group of characters
+         *          d. Array : It is a user defined data type which can store multiply homogenous variables    
+         */
+                    
+         /*
+                    // Syntax of class and object 
+                       public class ClassExample {  
+                                 // defining the variables of class  
+                                    int a = 20;  
+                                    int b = 10;  
+                                    int c;  
+  
+                                // defining the methods of class  
+                                public void add () {  
+                                    int c = a + b;  
+                                    System.out.println("Addition of numbers is: " + c);  
+                                }  
+  
+                                public void sub () {  
+                                int c = a - b;  
+                                System.out.println("Subtraction of numbers is: " + c);  
+                                }  
+      
+                                // main method  
+                                public static void main (String[] args) {  
+                                    // creating the object of class  
+                                        ClassExample obj = new ClassExample();  
+  
+                                    // calling the methods  
+                                        obj.add();  
+                                        obj.sub();  
+                                     }  
+                                }  
+         */
+
+
+                    // Syntax of Stirng
+                        String str = "Example of String data type";
+                        System.out.println(str);
+
+                    // Syntax of Array
+                        int arrInt[] = {1,2,3,4,5};
+                        char arrChar[] = {'a','b','c'};
+                    
+                        System.out.println(arrInt[0] +" "+ arrInt[1]);
+                        System.out.println(arrChar);
+            
+
     }
 }
