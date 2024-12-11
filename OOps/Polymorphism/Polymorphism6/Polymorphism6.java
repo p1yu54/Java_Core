@@ -1,29 +1,8 @@
 // Achieveing Single Level Inheritance as well as well overloading methods 
 
 
-class A{
-    void show(){
-        System.out.println("This is show method in class A");
-    }
 
-    void show(int num){
-        if(num % 2 == 0){
-            System.out.println(num + " is even number");
-        }
-        else{
-            System.out.println(num + " is odd number");
-        }
-    }
-} 
-class B extends A{
-    void show1(String name){
-        System.out.println("My name is " + name);
-    }
-    void show1(int age){
-        System.out.println("My age is " + age);
-    }
-} 
-class C extends B{
+class C{
     int show2(int num){
         boolean flag = true ;
         for(int i = 2 ; i < num ; i++){
@@ -61,10 +40,6 @@ class D extends C{
 public class Polymorphism6 {
     public static void main(String[] args) {
         D d = new D();
-        d.show();
-        d.show(12);
-        d.show1("Piyush");
-        d.show1(18);
         d.show2(12);
         d.show2();
         d.show3();
