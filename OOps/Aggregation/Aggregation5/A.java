@@ -1,4 +1,4 @@
-// Achieveing Single Level Inheritance 
+// Achieveing Multi-Level Inheritance 
 
 class B{
     void show(){
