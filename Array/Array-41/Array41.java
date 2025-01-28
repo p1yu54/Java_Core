@@ -1,4 +1,4 @@
-// Calculating all the elements of each rows and finding the minimum of these sum
+// Calculating all the elements of each rows and finding the minimum of these sum.
 
 import java.util.Scanner;
 
