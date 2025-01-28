@@ -45,14 +45,14 @@ public class Array41{
     }
 
     public static void MaxRow(int sum[]){
-        int max = sum[0];
+        int min = sum[0];
 
         for(int i = 0 ; i < sum.length ; i++){
-            if(max > sum[i]){
-                max = sum[i];
+            if(min > sum[i]){
+                min = sum[i];
             }
         }
-        System.out.println("The minimum of sum of elements of rows is :- " + max);
+        System.out.println("The minimum of sum of elements of rows is :- " + min);
     }
     public static void main(String[] args) {
         
